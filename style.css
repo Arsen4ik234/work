@@ -33,3 +33,30 @@
     font-size: 90px;
     text-decoration: underline;
 }
+
+.fixed-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+.lig{
+    border: 2px solid #000;
+    border-radius: 12px;
+    background-color: aqua;
+}
+
+.active{
+    background-color: aquamarine;
+}
+
+.had{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
